@@ -1,6 +1,16 @@
 # Git workflow
 
-## Steps to merge you code with master
+## Where to write your code
+- #### local master: 
+	is the master branch you have on your computer. 
+- #### remote master: 
+	it is usually the master branch on github 
+- #### local and remote master branch: 
+	used to keep a working version of the app that you can merge changes from your local branch changes to.
+- #### your branches: 
+	you can make branches for each feature, update or one branch for all your work. This is your branch which is not master. This is where you make changes to the project. Once you are ready to submit this code to master, you can follow the steps to merge your code with master below. 
+
+## Steps to merge your code with master
 ### Prereq:
 - Only do this when you have something significant to merge with master like a decent amount of code or progress towards a feature.
 - Notify group that you would be will be merging and pushing your changes to master so there is only one person pushing changes to master. To avoid a lot of merge conflicts its better if one person merges their changes to master at a time. 
